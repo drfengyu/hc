@@ -1,5 +1,5 @@
 ---
-title: 使用Python+Opencv抠图s
+title: 使用Python+Opencv抠图
 comments: true
 toc: true
 donate: true
