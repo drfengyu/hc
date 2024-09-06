@@ -4,6 +4,7 @@ comments: true
 toc: true
 donate: true
 share: true
+cover: https://wiki.krt.moe/images/default.webp
 date: 2024-09-05 13:35:17
 categories: 网站搭建
 tags: [GitHub Pages,Hexo,部署]

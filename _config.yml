@@ -15,7 +15,7 @@ language: zh
 timezone: ''
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project' posts/:title/
 url: https://drfengyu.github.io/hc
 permalink: posts/:title/
 permalink_defaults:

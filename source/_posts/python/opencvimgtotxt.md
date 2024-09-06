@@ -4,6 +4,7 @@ comments: true
 toc: true
 donate: true
 share: true
+cover: https://demo-cloudflare-imgbed.pages.dev/file/63ebbcf5394c2ae647e1f.png
 date: 2024-09-04 10:01:20
 categories: python
 tags: [python, opencv, 图像处理]
