@@ -4,7 +4,7 @@ comments: true
 toc: true
 donate: true
 share: true
-cover: https://wiki.krt.moe/images/default.webp
+cover: https://hexo.io/icon/favicon-196x196.png
 date: 2024-09-04 9:35:17
 categories: 网站搭建
 tags: [GitHub Pages,Hexo,部署]

@@ -6,6 +6,7 @@ comments: true
 toc: true
 donate: true
 share: true
+cover: https://hexo.io/icon/favicon-196x196.png
 date: 2024-09-06 14:16:26
 ---
 

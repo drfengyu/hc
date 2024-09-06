@@ -15,7 +15,41 @@ tags:
 
 # 通讯模块
 
-{% asset_img post-image image-5.png %}
+## 学习目标
+
+{% asset_img post-image image0.png %}
+
+## 应用说明
+
+### 建立通信
+
+{% asset_img post-image image.png %}
+
+### 通讯状态
+
+{% asset_img post-image image1.png %}
+
+### 数据接收与发送
+
+{% asset_img post-image image2.png %}
+
+### 地址变换
+
+{% asset_img post-image image3.png %}
+
+## 随堂笔记
+
+{% asset_img post-image image4.png %}
+
+## 课后练习
+
+{% asset_img post-image image5.png %}
+
+
+
+
+
+
 
 
 
