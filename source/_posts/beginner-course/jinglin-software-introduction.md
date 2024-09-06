@@ -5,8 +5,10 @@ toc: true
 donate: true
 share: true
 cover: https://imgdb.drfengling.online/file/ffdb83e1409372830957e.png
-date: 2024-09-03 15:35:49
-categories: 汇川视觉
+date: 2024-09-05 15:35:49
+categories: 
+  - 汇川视觉
+  - 汇川视觉/入门课程
 tags:
   - 汇川视觉
   - 入门课程
