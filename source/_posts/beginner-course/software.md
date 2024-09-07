@@ -147,6 +147,130 @@ read or write file failed——文件读取失败
 
 ![image-4.png](https://imgdb.drfengling.online/file/25e3e9085d6d9695eb0f8.png)
 
+### 软件使用
+
+1. 安装环境包
+
+2. 安装JINOVISION Installer V1R05C010_Windows.exe
+
+3. 桌面打开Editor编辑器图标
+
+4. 连接127.0.0.1
+
+{% asset_img post-image image1.png %}
+
+5. 新建空白项目
+
+{% asset_img post-image image2.png %}
+
+{% asset_img post-image image3.png %}
+
+6. 流程配置
+
+依次从左侧元件工具箱拖动开关分支,信源接收,本地脚本,拍摄II,如下所示
+
+{% asset_img post-image image4.png %}
+
+7. 配置元件
+
+- 开关分支
+
+点击开关分支,在分支路由下拉框选择,新增变量,在变量值输入框输入1,点击确定
+
+{% asset_img post-image image5.png %}
+
+分支序号为1的分支,点击编辑,在变量值输入框输入1,点击确定
+
+{% asset_img post-image image6.png %}
+
+- 信源接收
+
+新建一个工程变量1
+
+{% asset_img post-image image7.png %}
+
+- 本地脚本
+
+新建输出变量,选择引用变量1,设置Int类型,右侧框输入O0=2,点击下方运行查看测试结果.
+
+{% asset_img post-image image8.png %}
+
+- 拍摄II
+
+选择相机配置,添加一个全局相机,设备列表选择虚拟相机
+
+{% asset_img post-image image9.png %}
+
+{% asset_img post-image image10.png %}
+
+拍摄II相机变量选择全局相机,输出图像点击新增变量
+
+{% asset_img post-image image11.png %}
+
+下方缩略图处选择本地图片路径
+
+{% asset_img post-image image12.png %}
+
+设置自增
+
+{% asset_img post-image image13.png %}
+
+- 运行
+
+点击拍摄II,循环运行,发现图像不切换
+
+{% asset_img post-image image14.png %}
+
+- 右侧工程管理器,新建任务2,添加信源发送元件,选择工程变量1
+
+{% asset_img post-image image15.png %}
+
+- 任务配置
+
+选择任务1,任务2
+
+{% asset_img post-image image16.png %}
+
+- 单次运行任务,给信源赋值
+
+{% asset_img post-image image17.png %}
+
+- 循环运行
+
+图片正常切换
+
+{% asset_img post-image image18.png %}
+
+8. 变量监测
+
+添加要监测的变量
+
+{% asset_img post-image image19.png %}
+
+{% asset_img post-image image20.png %}
+
+9. 运行时对应变量在变量监测区看到发生了变化
+
+{% asset_img post-image image21.png %}
+
+10. 界面配置
+
+在右侧图形管理器,新建一个图层,选择图层0,添加视觉窗口,内容绑定任务1的拍摄II
+
+{% asset_img post-image image22.png %}
+
+11. 监视器设置
+
+选择显示菜单栏
+
+{% asset_img post-image image23.png %} 
+
+12. 打开监视器,运行工程
+
+切换回任务1,点击菜单栏打开监视器,在监视器菜单栏点击运行工程,可以在监视器界面看到图像的变化
+
+{% asset_img post-image image24.png %} 
+
 ## 课后练习
 
 一、任选图中一组直线，求交点，并记录交点信息。
