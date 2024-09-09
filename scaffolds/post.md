@@ -1,6 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
+updated: {{ date }}
 categories: 
   - 汇川视觉/入门课程
 tags:
