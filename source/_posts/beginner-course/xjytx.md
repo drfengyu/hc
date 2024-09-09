@@ -10,8 +10,7 @@ comments: true
 toc: true
 donate: true
 share: true
-date: 2024-09-06 15:20:31
-updated: 2024-09-09 11:20:31
+date: 2024-09-09 13:20:31
 ---
 
 # 相机与通讯
@@ -44,7 +43,11 @@ updated: 2024-09-09 11:20:31
 
 {% asset_img post-image image6.png %}
 
+## 使用练习
 
+整体比较简单,拖动以下元件到流程区使用即可.
+
+{% asset_img post-image image7.png %}
 
 
 

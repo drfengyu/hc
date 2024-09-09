@@ -4,7 +4,7 @@ comments: true
 toc: true
 donate: true
 share: true
-date: 2024-09-06 13:36:41
+date: 2024-09-09 13:36:41
 categories: 
   - 汇川视觉
   - 汇川视觉/入门课程
@@ -42,6 +42,8 @@ tags:
 {% asset_img post-image image4.png %}
 
 ## 使用练习
+
+![alt text](image.png)
 
 ### 通讯设置
 

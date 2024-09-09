@@ -6,7 +6,6 @@ donate: true
 share: true
 cover: https://imgdb.drfengling.online/file/ffdb83e1409372830957e.png
 date: 2024-09-07 16:14:49
-updated: 2024-09-07 16:14:49
 categories: 
   - 汇川视觉
   - 汇川视觉/入门课程
@@ -104,10 +103,6 @@ Runner是软件的后端，由Runnermanager控制，无界面。
 权限：将设置的用户名、工号、权限等级输出引用到工程变量-属性变量-当前角色中，在图上可通过引用当前角色这个变量显示用户设置的权限信息。
 
 ![image-3.png](https://imgdb.drfengling.online/file/9eaac228ec2595dfe88fa.png)
-
-现场工程运行演示
-
-<video controls src="./jinglin-software-introduction.md/视频1.mp4" title="Title"></video>
 
 ## 特殊功能讲解及异常排查
 
