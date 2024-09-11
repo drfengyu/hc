@@ -10,7 +10,7 @@ comments: true
 toc: true
 donate: true
 share: true
-cover: image.png
+cover: image-1.png
 date: 2024-09-09 14:01:52
 ---
 
