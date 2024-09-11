@@ -4,6 +4,7 @@ comments: true
 toc: true
 donate: true
 share: true
+cover: image0.png
 date: 2024-09-09 13:36:41
 categories: 
   - 汇川视觉

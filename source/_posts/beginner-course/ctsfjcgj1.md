@@ -67,3 +67,11 @@ date: 2024-09-11 17:08:21
 ## 课后练习
 
 {% asset_img post-image image-13.png %}
+
+### 练习
+
+#### 比较简单,不再赘述
+
+{% asset_img post-image image-14.png %}
+
+{% asset_img post-image image-15.png %}
