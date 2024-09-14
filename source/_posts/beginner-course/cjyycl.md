@@ -1,5 +1,5 @@
 ---
-title: 入门教程——9.初级应用-—点数
+title: 入门教程——10.初级应用-—测量
 categories:
   - 汇川视觉
   - 汇川视觉/入门课程
@@ -10,16 +10,15 @@ comments: true
 toc: true
 donate: true
 share: true
-date: 2024-09-12 17:20:53
+cover: image.png
+date: 2024-09-14 17:14:56
 ---
 
 # 学习目标
 
 ![alt text](image.png)
 
-# 背景讲解
-
-## 工艺讲解
+# 工艺讲解
 
 ![alt text](image-1.png)
 
@@ -31,39 +30,21 @@ date: 2024-09-12 17:20:53
 
 ![alt text](image-5.png)
 
-![alt text](image-6.png)
+# 方案讲解
 
-## 方案讲解
+![alt text](image-6.png)
 
 ![alt text](image-7.png)
 
 ![alt text](image-8.png)
 
-### 目标检测
+# 案例讲解
+
+## 经验总结
 
 ![alt text](image-9.png)
 
 ![alt text](image-10.png)
 
-### Python脚本
-
 ![alt text](image-11.png)
-
-### 变量配置
-
-丸体基准设为29,片剂基准设为1
-
-![alt text](image-12.png)
-
-### 结果发送
-
-脚本对应分支赋值
-
-
-
-
-
-
-
-
 
