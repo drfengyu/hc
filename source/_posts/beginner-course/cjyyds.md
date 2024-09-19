@@ -7,6 +7,7 @@ tags:
   - 汇川视觉
   - 入门课程
 comments: true
+cover: image.png
 toc: true
 donate: true
 share: true

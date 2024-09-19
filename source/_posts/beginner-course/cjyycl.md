@@ -1,5 +1,5 @@
 ---
-title: 入门教程——10.初级应用-—测量
+title: 入门教程——11.初级应用-—测量
 categories:
   - 汇川视觉
   - 汇川视觉/入门课程
@@ -48,3 +48,50 @@ date: 2024-09-14 17:14:56
 
 ![alt text](image-11.png)
 
+## 课程案例练习
+
+![alt text](image-12.png)
+
+### 形状匹配
+
+![alt text](image-13.png)
+
+### 循环开始
+
+![alt text](image-14.png)
+
+### Python脚本1
+
+![alt text](image-15.png)
+
+### 直线检测
+
+![alt text](image-16.png)
+
+### 线线距离
+
+![alt text](image-17.png)
+
+### python脚本2
+
+![alt text](image-18.png)
+
+### 变量绘制
+
+![alt text](image-19.png)
+
+### 界面元素_视觉窗口
+
+![alt text](image-20.png)
+
+### 界面元素_动态表格
+
+![alt text](image-21.png)
+
+### 界面元素_运行按钮
+
+![alt text](image-22.png)
+
+### 效果
+
+![alt text](image-23.png)

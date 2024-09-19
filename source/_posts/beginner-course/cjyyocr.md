@@ -1,5 +1,5 @@
 ---
-title: 入门教程——9.初级应用-—ocr
+title: 入门教程——10.初级应用-—ocr
 categories:
   - 汇川视觉
   - 汇川视觉/入门课程
@@ -10,6 +10,7 @@ comments: true
 toc: true
 donate: true
 share: true
+cover: image.png
 date: 2024-09-13 17:07:02
 ---
 
