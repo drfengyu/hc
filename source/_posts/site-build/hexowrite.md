@@ -1,6 +1,8 @@
 ---
 title: hexo写作-标签插件
-categories: 网站搭建
+categories: 
+  - 网站搭建
+  - Hexo
 tags: [Hexo,写作, 标签插件]
 comments: true
 toc: true

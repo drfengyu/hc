@@ -8,7 +8,7 @@ cover: https://imgdb.drfengling.online/file/ffdb83e1409372830957e.png
 date: 2024-09-07 16:14:49
 categories: 
   - 汇川视觉
-  - 汇川视觉/入门课程
+  - 入门课程
 tags:
   - 汇川视觉
   - 入门课程

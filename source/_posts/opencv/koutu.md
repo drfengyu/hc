@@ -6,7 +6,9 @@ donate: true
 share: true
 cover: https://imgdb.drfengling.online/file/d977cbdc17e730fcd7642.png
 date: 2024-09-05 09:27:05
-categories: python
+categories:
+  - opencv 
+  - python
 tags: [python, opencv, 图像处理]
 ---
 

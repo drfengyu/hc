@@ -6,7 +6,9 @@ donate: true
 share: true
 cover: https://hexo.io/icon/favicon-196x196.png
 date: 2024-09-04 9:35:17
-categories: 网站搭建
+categories: 
+  - 网站搭建
+  - Hexo
 tags: [GitHub Pages,Hexo,部署]
 ---
 
