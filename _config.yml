@@ -5,7 +5,7 @@
 # Site
 title: 'drfengyu : VisionStudy'
 subtitle: '一个视觉学习的在线网站'
-description: '欢迎使用这个网站，希望能给您带来美好的体验。'
+description: '世界充满了学习.'
 keywords: 
 - hexo
 - theme
@@ -67,7 +67,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 8
   order_by: -date
 
 # Category & Tag
