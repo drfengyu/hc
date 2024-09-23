@@ -85,36 +85,36 @@ sidebar:
 
 # 分享组件设置
 # 分享组件设置
-share:
-  enable: true
-  title: "分享这一刻"
-  message: "让朋友们也来瞅瞅！"
-  platforms:
-    - name: "QQ"
-      icon: "qq"
-      color: "#00bfff"
-      link: "https://connect.qq.com/widget/shareqq/index.html?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
-    - name: "QQ空间"
-      icon: "star"
-      color: "#fece00"
-      link: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
-    - name: "微博"
-      icon: "weibo"
-      color: "#e6162d"
-      link: "https://service.weibo.com/share/share.php?url=$URL&title=$TITLE"
-    - name: "X"
-      html: |
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-          <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-        </svg>
-      color: "#000"
-      link: "https://x.com/intent/tweet?text=$TITLE&url=$URL"
-    - name: "Facebook"
-      icon: "facebook"
-      color: "#3e569b"
-      link: "https://www.facebook.com/sharer/sharer.php?u=$URL"
+# share:
+#   enable: true
+#   title: "分享这一刻"
+#   message: "让朋友们也来瞅瞅！"
+#   platforms:
+#     - name: "QQ"
+#       icon: "qq"
+#       color: "#00bfff"
+#       link: "https://connect.qq.com/widget/shareqq/index.html?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
+#     - name: "QQ空间"
+#       icon: "star"
+#       color: "#fece00"
+#       link: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
+#     - name: "微博"
+#       icon: "weibo"
+#       color: "#e6162d"
+#       link: "https://service.weibo.com/share/share.php?url=$URL&title=$TITLE"
+#     - name: "X"
+#       html: |
+#         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
+#           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+#           <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+#           <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+#         </svg>
+#       color: "#000"
+#       link: "https://x.com/intent/tweet?text=$TITLE&url=$URL"
+#     - name: "Facebook"
+#       icon: "facebook"
+#       color: "#3e569b"
+#       link: "https://www.facebook.com/sharer/sharer.php?u=$URL"
 
 # 打赏组件设置
 donate:
@@ -156,5 +156,5 @@ visit_count:
 additional_injections:
   after_footer: |
     <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
-    <script src="/comments/twikoo.js"></script>
+    <script src="/hc/comments/twikoo.js"></script>
 
