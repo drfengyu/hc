@@ -11,6 +11,7 @@ donate: true
 share: true
 date: 2024-09-23 10:26:03
 excerpt: "为 Kratos : Rebirth 主题添加 Twikoo 评论系统支持"
+show_in: ("category" | "tag")[]
 ---
 
 ## 官方介绍

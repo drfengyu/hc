@@ -10,6 +10,7 @@ categories:
   - opencv 
   - python
 tags: [python, opencv, 图像处理]
+show_in: ("category" | "tag")[]
 ---
 
 ## 1. 创建虚拟环境

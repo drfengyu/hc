@@ -10,6 +10,7 @@ toc: true
 donate: true
 share: true
 date: 2024-09-23 10:43:13
+show_in: ("category" | "tag")[]
 ---
 
 # APlayer | Kratos : Rebirth

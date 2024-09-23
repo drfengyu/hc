@@ -10,6 +10,7 @@ categories:
   - opencv 
   - python
 tags: [python, opencv, 图像处理]
+show_in: ("category" | "tag")[]
 ---
 
 # 使用 OpenCV 和 NumPy 进行图像处理：HSV 范围筛选示例实现PS抠图效果

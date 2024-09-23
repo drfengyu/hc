@@ -10,6 +10,7 @@ donate: true
 share: true
 date: 2024-09-23 11:13:49
 excerpt: "为 Kratos : Rebirth 主题添加失去焦点时调整标签页内容的功能"
+show_in: ("category" | "tag")[]
 ---
 
 ## 配置说明

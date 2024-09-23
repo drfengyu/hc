@@ -10,6 +10,7 @@ categories:
   - 网站搭建
   - Hexo
 tags: [GitHub Pages,Hexo,部署]
+show_in: ("category" | "tag")[]
 ---
 
 ---

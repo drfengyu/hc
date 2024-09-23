@@ -9,6 +9,7 @@ toc: true
 donate: true
 share: true
 date: 2024-09-09 17:19:08
+show_in: ("category" | "tag")[]
 ---
 
 在本地上传文件到新建的 GitHub 仓库，可以通过以下步骤和 Git 命令来完成：

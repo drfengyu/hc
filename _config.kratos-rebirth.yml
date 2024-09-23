@@ -6,9 +6,9 @@ search:
   path: # 搜索生成的文件的路径
     page: search
     index_file: search-index.json
-  includes: [] # 搜索包含的内容
-  # - post
-  # - page
+  includes:  # 搜索包含的内容
+    - post
+    - page
   content: true # 包含文章和页面的内容
 
 ################## 样式配置 ##################
@@ -36,6 +36,9 @@ nav:
     - label: 时间轴
       icon: archive
       url: /archives/
+    - label: 快速开始
+      icon: book
+      url: /posts/beginner-course/software/
     - label: 汇川视觉
       icon: book
       submenu:
@@ -207,4 +210,5 @@ additional_injections:
     <script src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
     <script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
     <script src="/hc/effects/leave-event.js"></script>
+    <script src="/hc/others/random-post-cover.js"></script>
 
