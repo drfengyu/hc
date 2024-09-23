@@ -33,9 +33,51 @@ nav:
     - label: 首页
       icon: home
       url: /
-    - label: 档案馆
-      icon: file
+    - label: 时间轴
+      icon: archive
       url: /archives/
+    - label: 汇川视觉
+      icon: book
+      submenu:
+        - label: 入门教程
+          icon: book
+          url: /categories/汇川视觉/入门课程/
+        - label: 中级教程
+          icon: book
+          url: /categories/汇川视觉/中级教程/
+        - label: 高级教程
+          icon: book
+          url: /categories/汇川视觉/高级教程/
+    - label: 海康视觉
+      icon: book
+      url: https://blog.drfengling.online/hk
+    - label: VisionPro视觉
+      icon: book
+      url: http://blog.drfengling.online/VisionProvideostudydoc/
+    - label: 音乐
+      icon: music
+      url: http://music.drfengling.online/
+    - label: 图片
+      icon: photo
+      url: http://imgdb.drfengling.online/
+    - label: AI
+      icon: magic
+      submenu:
+        - label: GPT4o-mini
+          icon: magic
+          url: https://lobechat.drfengling.online
+        - label: GPT3.5
+          icon: magic
+          url: https://a.drfengling.online
+        - label: 爱豆在线问答
+          icon: magic
+          url: https://idol.drfengling.online
+        - label: 与大模型聊天
+          icon: magic
+          url: https://chat.drfengling.online
+        - label: 微笑脸
+          icon: magic
+          url: https://model.drfengling.online  
     - label: 链接
       icon: link
       submenu:
