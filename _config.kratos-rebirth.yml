@@ -200,7 +200,8 @@ visit_count:
     index: ""
     post: ""
 
-################## 额外的注入代码 ##################
+################## 额外的注入代码 ################## 
+# <script src="/hc/effects/cursor-effects.js"></script>
 additional_injections:
   head: |
     <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
@@ -217,7 +218,6 @@ additional_injections:
     <script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
     <script src="/hc/effects/leave-event.js"></script>
     <script src="/hc/others/random-post-cover.js"></script>
-    <script src="/hc/effects/cursor-effects.js"></script>
     <script src="/hc/effects/snow.js"></script>
 
 
