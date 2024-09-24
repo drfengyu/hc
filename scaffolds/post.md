@@ -8,10 +8,11 @@ tags:
   - 
   - 
 #sticky:
-cover: image.png
+# cover: image.png
 comments: true
 toc: true
 donate: true
 share: true
+show_in: ("category" | "tag")[]
 ---
 

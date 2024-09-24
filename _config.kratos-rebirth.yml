@@ -87,9 +87,12 @@ nav:
         - label: 代码仓库
           icon: code
           url: https://github.com/drfengyu/hc
+    - label: 留言板
+      icon: comment
+      url: /posts/site-build/lyb
         
 posts:
-  default_cover: "https://dev.krt.moe/demo-assets/banner.webp" # 没有头图的文章使用的默认图片
+  default_cover: "/hc/images/default.webp" # 没有头图的文章使用的默认图片 https://dev.krt.moe/demo-assets/banner.webp
   donate: true # 默认是否启用打赏功能
   share: true # 默认是否启用分享功能
   word_count: # 字数统计功能
@@ -130,23 +133,23 @@ sidebar:
 
 # 分享组件设置
 # 分享组件设置
-# share:
-#   enable: true
-#   title: "分享这一刻"
-#   message: "让朋友们也来瞅瞅！"
-#   platforms:
-#     - name: "QQ"
-#       icon: "qq"
-#       color: "#00bfff"
-#       link: "https://connect.qq.com/widget/shareqq/index.html?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
-#     - name: "QQ空间"
-#       icon: "star"
-#       color: "#fece00"
-#       link: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
-#     - name: "微博"
-#       icon: "weibo"
-#       color: "#e6162d"
-#       link: "https://service.weibo.com/share/share.php?url=$URL&title=$TITLE"
+share:
+  enable: true
+  title: "分享这一刻"
+  message: "让朋友们也来瞅瞅！"
+  platforms:
+    - name: "QQ"
+      icon: "qq"
+      color: "#00bfff"
+      link: "https://connect.qq.com/widget/shareqq/index.html?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
+    - name: "QQ空间"
+      icon: "star"
+      color: "#fece00"
+      link: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$URL&title=$TITLE&desc=&summary=$SUMMARY&site=$SITE"
+    - name: "微博"
+      icon: "weibo"
+      color: "#e6162d"
+      link: "https://service.weibo.com/share/share.php?url=$URL&title=$TITLE"
 #     - name: "X"
 #       html: |
 #         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x">
@@ -201,9 +204,12 @@ visit_count:
 additional_injections:
   head: |
     <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
-    <link rel="stylesheet" href="/widgets/aplayer.css">
+    <link rel="stylesheet" href="/hc/widgets/aplayer.css">
+    <link rel="stylesheet" href="/hc/others/mobile-hero.css"/>
+    <link rel="stylesheet" href="/hc/effects/snow.css" />
   footer: |
     <meting-js server="netease" type="playlist" id="60198" fixed="true"></meting-js>
+    <canvas id="snow"></canvas>
   after_footer: |
     <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
     <script src="/hc/comments/twikoo.js"></script>
@@ -211,4 +217,7 @@ additional_injections:
     <script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
     <script src="/hc/effects/leave-event.js"></script>
     <script src="/hc/others/random-post-cover.js"></script>
+    <script src="/hc/effects/cursor-effects.js"></script>
+    <script src="/hc/effects/snow.js"></script>
+
 

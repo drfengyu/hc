@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .kratos-start {
+        height: unset !important;
+    }
+    .kratos-cover.kratos-cover-2.text-center {
+        display: block;
+    }
+}

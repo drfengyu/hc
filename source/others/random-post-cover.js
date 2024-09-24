@@ -1,6 +1,6 @@
 (() => {
     // 请设置为您在配置中配置的默认封面路径
-    const defaultCoverSrc = "/images/default.webp";
+    const defaultCoverSrc = "/hc/images/default.webp";
     // 请设置为您的随机文件基础路径（{no} 替代编号，从 1 开始）
     const randomImageSrcTemplate = "https://www.unpkg.com/hexo-theme-kratos-rebirth@2.2.0/source/images/thumb/thumb_{no}.webp";
     // 请设置为您的随机图片文件数量

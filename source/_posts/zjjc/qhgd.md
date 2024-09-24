@@ -6,7 +6,7 @@ categories:
 tags:
   - 汇川视觉
   - 中级教程
-cover: image.png
+cover: image-1.png
 comments: true
 toc: true
 donate: true
