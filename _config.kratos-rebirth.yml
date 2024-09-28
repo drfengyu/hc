@@ -201,16 +201,16 @@ visit_count:
     post: ""
 
 ################## 额外的注入代码 ################## 
-# <script src="/hc/effects/cursor-effects.js"></script>
+# <script src="/hc/effects/cursor-effects.js"></script><link rel="stylesheet" href="/hc/effects/snow.css" /><canvas id="snow"></canvas><script src="/hc/effects/snow.js"></script>
 additional_injections:
   head: |
     <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
     <link rel="stylesheet" href="/hc/widgets/aplayer.css">
     <link rel="stylesheet" href="/hc/others/mobile-hero.css"/>
-    <link rel="stylesheet" href="/hc/effects/snow.css" />
+    
   footer: |
     <meting-js server="netease" type="playlist" id="60198" fixed="true"></meting-js>
-    <canvas id="snow"></canvas>
+    
   after_footer: |
     <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
     <script src="/hc/comments/twikoo.js"></script>
@@ -218,6 +218,6 @@ additional_injections:
     <script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>
     <script src="/hc/effects/leave-event.js"></script>
     <script src="/hc/others/random-post-cover.js"></script>
-    <script src="/hc/effects/snow.js"></script>
+    
 
 
