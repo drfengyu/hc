@@ -53,34 +53,34 @@ nav:
           url: /categories/汇川视觉/高级教程/
     - label: 海康视觉
       icon: book
-      url: https://blog.drfengling.online/hk
+      url: https://blog.drfengling.asia/hk
     - label: VisionPro视觉
       icon: book
-      url: http://blog.drfengling.online/VisionProvideostudydoc/
+      url: http://blog.drfengling.asia/VisionProvideostudydoc/
     - label: 音乐
       icon: music
-      url: http://music.drfengling.online/
+      url: http://music.drfengling.asia/
     - label: 图片
       icon: photo
-      url: http://imgdb.drfengling.online/
+      url: http://imgdb.drfengling.asia/
     - label: AI
       icon: magic
       submenu:
         - label: GPT4o-mini
           icon: magic
-          url: https://lobechat.drfengling.online
+          url: https://lobechat.drfengling.asia
         - label: GPT3.5
           icon: magic
-          url: https://a.drfengling.online
+          url: https://a.drfengling.asia
         - label: 爱豆在线问答
           icon: magic
-          url: https://idol.drfengling.online
+          url: https://idol.drfengling.asia
         - label: 与大模型聊天
           icon: magic
-          url: https://chat.drfengling.online
+          url: https://chat.drfengling.asia
         - label: 微笑脸
           icon: magic
-          url: https://model.drfengling.online  
+          url: https://model.drfengling.asia  
     - label: 链接
       icon: link
       submenu:
